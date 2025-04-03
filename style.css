@@ -93,4 +93,7 @@ button:hover {
     color: #d17b00;
     font-size: 22px;
 }
+h1 {
+    text-align: center !important;
+  }
 }
