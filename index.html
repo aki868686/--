@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ペット健康チェック</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ペット健康チェックアプリ</h1>
+    
+    <!-- カメラ映像を表示する部分 -->
+    <video id="camera" autoplay></video>
+    
+    <!-- 画像を撮影するボタン -->
+    <button id="capture">撮影</button>
+    
+    <!-- 撮影した画像を表示 -->
+    <canvas id="photoCanvas"></canvas>
+
+    <!-- AIによる健康判定結果を表示 -->
+    <p id="result">健康チェック結果がここに表示されます。</p>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="script.js"></script>
+<h2>エサ・おやつのアドバイス</h2>
+<p id="foodAdvice">ここにアドバイスが表示されます</p>
+</body>
+</html>
