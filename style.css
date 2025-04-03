@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f8f8f8;
+    /* 全体のテキストを中央揃え */
+body {
+    text-align: center;
+}
 }
 
 h1 {
