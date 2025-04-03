@@ -3,10 +3,12 @@ body {
     text-align: center;
     background-color: #f8f8f8;
     /* 全体のテキストを中央揃え */
-body {
-    text-align: center;
 }
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 h1 {
     color: #333;
