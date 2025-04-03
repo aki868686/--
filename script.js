@@ -83,5 +83,9 @@ document.getElementById("capture").addEventListener("click", async function() {
 
     // エサ・おやつのアドバイスを表示
     document.getElementById("foodAdvice").innerText = foodSuggestions[healthStatus];
+    // 撮影ボタンの動作
+document.getElementById("cameraButton").addEventListener("click", function() {
+    alert("カメラが起動します！（実際の処理は後で追加）");
+});
 });
 

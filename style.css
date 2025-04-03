@@ -32,4 +32,59 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
     color: #555;
+    /* 1. ペット系の温かみのある色合い */
+body {
+    background-color: #f8f3e7; /* クリーム系 */
+    font-family: 'Nunito', sans-serif; /* Google Fontsを後で追加 */
+    color: #5a4636; /* 高級感のあるブラウン */
+    text-align: center;
+}
+
+/* 2. ヘッダーのデザイン */
+header {
+    background-color: #ffcc80; /* 温かみのあるオレンジ */
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* 3. ボタンデザイン */
+button {
+    background-color: #ff9800; /* 鮮やかなオレンジ */
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e68900; /* ホバー時に濃いオレンジ */
+}
+
+/* 4. 撮影画面のボタン */
+#cameraButton {
+    background-color: #ff5722; /* 目立つ色 */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+/* 5. サブスク案内のデザイン */
+#subscription {
+    background: #ffebc2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#subscription h2 {
+    color: #d17b00;
+    font-size: 22px;
+}
 }
